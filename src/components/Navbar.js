@@ -9,8 +9,10 @@ export default function Navbar() {
     <div className='navbar'>
       <ul>
         <li className='logo'>
-          <img src={Temple} alt='dojo logo' />
-          <span>TheDojoMass</span>
+          <Link to='/'>
+            <img src={Temple} alt='dojo logo' />
+            <span>TheDojoMass</span>
+          </Link>
         </li>
         <li>
           <Link to='/login'>Login</Link>
